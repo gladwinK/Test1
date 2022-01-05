@@ -1,10 +1,14 @@
 # init
-	-to initialise git in a directory.
-	- 'git init'
+-to initialise git in a directory.
+```
+git init
+```
 # add
+
 	-to add files/dir to staging.
 	- 'git add fileName/directoryName'
 	- 'git add -A'
+	- 'git add .' (to add everything in current dir.).
 # status
 	-to get status of our repo.
 	- 'git status'
@@ -21,9 +25,11 @@
 		- 'git checkout branchName'
 	-to create a branch and move into it 
 		- 'git checkout -b branchName'
-#log
+# log
 	-to see all the commits done with author-name, time, commit-message.
-	- 'git log'
+``` 
+	'git log' 
+```
 	- 'git log -p -numberOfPreviousLogs'
 
 # diff
@@ -40,8 +46,9 @@
 # rm
 	-to remove from staging
 		- 'git rm --cached fileName'
-	-to remove from staging and delete from the wroking-directory.		
+	-to remove from staging and delete from the wroking-directory.
 		- 'git rm fileName'
+		
 # restore
 	- to unstage 'git restore --staged'
 		
@@ -67,6 +74,11 @@
  
 
 
-
-###Github 
+### global ### config
+	-to set - 'git config --global user.name/email 'userName'
+	-to show - 'git config --global user.name/email'  
+### remote
+	- to add an origin - 'git remote add origin 'url'.
+	- to show remote url - 'git config --get remote.origin.url'.
+	- to set remote url -  'get remote set-url origin '{ newUrl}'. 
 
